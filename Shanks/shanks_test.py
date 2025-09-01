@@ -1,4 +1,4 @@
-import shanks
+import Shanks.shanks as shanks
 
 class TestSolution():
     def test_get_order(self):
