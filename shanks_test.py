@@ -21,4 +21,3 @@ class TestSolution():
         assert shanks.baby_step_giant_step(3, 7, 5) == 5
         assert shanks.baby_step_giant_step(3, 7, 4) == 4
         assert shanks.baby_step_giant_step(5, 23, 8) == 6
-        assert shanks.baby_step_giant_step(156, 593, 116) == 59

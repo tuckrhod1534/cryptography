@@ -30,5 +30,3 @@ def baby_step_giant_step(root: int, mod: int, result: int) -> int:
             return (list_a.index(match) + list_b.index(match)*n) % (mod-1)
         else:
             return None
-    
-print(baby_step_giant_step(156, 593, 116))
